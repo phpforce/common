@@ -19,11 +19,11 @@ abstract class AbstractHasDispatcher
     /**
      * Set event dispatcher
      *
-     * @param EventDispatcherInterface $eventDispacher
+     * @param EventDispatcherInterface $eventDispatcher
      */
-    public function setEventDispacher(EventDispatcherInterface $eventDispacher)
+    public function setEventDispatcher(EventDispatcherInterface $eventDispatcher)
     {
-        $this->eventDispacher = $eventDispacher;
+        $this->eventDispatcher = $eventDispatcher;
     }
 
     /**
