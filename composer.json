@@ -1,0 +1,23 @@
+{
+    "name": "phpforce/common",
+    "type": "library",
+    "description": "Common library for the PhpForce Salesforce libraries",
+    "keywords": [  "salesforce", "crm", "soap", "force.com", "web services" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David de Boer",
+            "email": "david@ddeboer.nl",
+            "homepage": "http://ddeboer.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/event-dispatcher": ">=2.1@stable"
+    },
+    "autoload": {
+        "psr-0": {
+            "PhpForce\\Common": "src"
+        }
+    }
+}
