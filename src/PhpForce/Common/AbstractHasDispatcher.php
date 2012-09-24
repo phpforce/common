@@ -1,5 +1,5 @@
 <?php
-namespace PhpForce\Common;
+namespace Phpforce\Common;
 
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\EventDispatcher\EventDispatcher;
