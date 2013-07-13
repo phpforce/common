@@ -47,11 +47,13 @@ abstract class AbstractHasDispatcher
      * Dispatch an event
      *
      * @param string $name  Name of event: see Events.php
-     * @param type   $event Event object
+     * @param Event  $event Event object
+     *
+     * @return Event
      */
     protected function dispatch($name, Event $event)
     {
-        $this->getEventDispatcher()->dispatch($name, $event);
+        return $this->getEventDispatcher()->dispatch($name, $event);
     }
 }
 
